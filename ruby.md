@@ -92,11 +92,19 @@ Answer the following questions. First, without external resources. Challenge you
 
 Choose one of these resources and look through the material for 10-15 min. List three new things you learned about Ruby:
 
-1)
+1) multiple when then statements
+kind = case year
+when 1850..1889 then 'Blues'
+when 1890..1909 then 'Ragtime'
+when 1910..1929 then 'New Orleans Jazz'
+when 1930..1939 then 'Swing'
+when 1940..1950 then 'Bebop'
+else 'Jazz'
+end
 
-2)
+2) menthod sqrt , to get square root of a number
 
-3)
+3)  gsub method - It allows you to replace, or substitute characters inside a string.
 
 
 7. STRETCH: What are blocks, procs, and lambdas?
